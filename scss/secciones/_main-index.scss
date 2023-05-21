@@ -1,0 +1,29 @@
+#main-index {
+    background-color: rgba(245, 245, 245, 0.877);
+    min-height: 70vh;
+    width: 100%;
+}
+.indexfontsize {
+    font-size: 22px;
+}
+.imgspam {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(161, 156, 156);
+}
+.imgspam .contenedor-iconp  {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.imgspam .contenedor-iconp p {
+    margin: 15px;
+}
+@media (min-width : 500px){
+    .imgspam .contenedor-incop {
+        font-size: 5px;
+    }
+}
+
+
+
